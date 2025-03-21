@@ -10,12 +10,7 @@
   transition: .2s linear;
 }
 
-/* body{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-} */
+
 header{
   width: 100%;
   display: flex;
@@ -23,22 +18,57 @@ header{
   justify-content: center;
   align-items: center;
 }
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 .select-dificult{
   width: 50%;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  margin: 0;
+  padding: 0; 
+  align-items: flex-end;
 }
 
 .select-dificult select{
     width: 100%;
     padding: 8px;
     border: 1px solid #ccc;
-    border-radius: 4px;
+    border-radius: 6px;
     margin-top: 20px;
+    margin-right: 10px;
 }
 .select-dificult #qtdPerguntas{
   width: 10%;
+  border-radius: 6px;
+}
+.select-dificult button{
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
   border-radius: 4px;
+  cursor: pointer;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 40px;
+}
+main div a{
+  display: flex;
+  flex-direction: column;
+ justify-content: flex-start;
+ align-items: center  ;
+}
+.hide{
+  display: none;
 }
