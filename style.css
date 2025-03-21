@@ -9,3 +9,36 @@
   text-transform: capitalize;
   transition: .2s linear;
 }
+
+/* body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+} */
+header{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.select-dificult{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.select-dificult select{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+.select-dificult #qtdPerguntas{
+  width: 10%;
+  border-radius: 4px;
+}
